@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "axios": "^1.5.0",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.63.0",
+    "request": "^2.88.2",
+    "steam-session": "^1.6.0",
+    "steam-totp": "^2.1.2",
+    "steam-tradeoffer-manager": "^2.10.6",
+    "steamcommunity": "^3.46.1"
+  },
+  "name": "sda-tg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "encode": "node src/loader.js encodeAll",
+    "decode": "node src/loader.js decodeAll"
+  },
+  "author": "0",
+  "license": "ISC",
+  "description": ""
+}

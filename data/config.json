@@ -1,0 +1,46 @@
+{
+    "telegram_bot_token": "",
+    "userProfileWhitelist": [
+      {
+            "id": 0,
+            "accounts": [
+            ]
+        }
+    ],
+    "inline_setups": {
+        "default": {
+            "inline_keyboard": [
+                [
+                    {
+                        "text": "🔄 Подтверждение обменов",
+                        "callback_data": "query_confirm_trades"
+                    },
+                    {
+                        "text": "💹 Подтверждение маркет",
+                        "callback_data": "query_confirm_market"
+                    }
+                ],
+                [
+                    {
+                        "text": "👤 Вход в аккаунт",
+                        "callback_data": "query_account_login"
+                    }
+                ]
+            ]
+        },
+        "acceptOrDecline": {
+            "inline_keyboard": [
+                [
+                    {
+                        "text": "✅",
+                        "callback_data": "accept"
+                    },
+                    {
+                        "text": "❌",
+                        "callback_data": "decline"
+                    }
+                ]
+            ]
+        }
+    }
+}
